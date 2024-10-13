@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arva Number</title>
+    <!-- Lingime CSS faili -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Arva number vahemikus 1-10</h1>
+        <p>Sisesta oma pakkumine:</p>
+        <input type="number" id="guess" min="1" max="10" placeholder="Sisesta number">
+        <button onclick="checkGuess()">Arva!</button>
+        <p id="result"></p>
+    </div>
+
+    <!-- Lingime eraldi JavaScript faili -->
+    <script src="game.js"></script>
+</body>
+</html>
